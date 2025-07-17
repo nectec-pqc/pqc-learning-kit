@@ -1,0 +1,15 @@
+name: using-pqc-cert
+services:
+  nginx:
+    image: openquantumsafe/nginx
+    ports:
+    - 4433:4433
+  curl:
+    image: openquantumsafe/curl
+    command:
+    - curl
+    - -k
+    - https://nginx:4433
+    profiles:
+    - client
+
