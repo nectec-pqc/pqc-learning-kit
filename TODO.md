@@ -17,6 +17,8 @@
 
 # Hybrid Certificates
 
+- [ ] Try changing algorithm for signing cert, see if there is one that chrome
+  can use.
 - [ ] Create a demo of hybrid certificate between PQC and non-PQC
 - [ ] Follow [EJBCA hybrid CA guide](https://docs.keyfactor.com/ejbca/latest/hybrid-ca)
 
@@ -42,4 +44,47 @@ is not being pursued because the same functionality is already covered by [ITU-T
 # Is X25519MLKEM768 already supported?
 
 - https://developers.cloudflare.com/ssl/post-quantum-cryptography/pqc-support/
+- also mentioned in [k8s blog](https://kubernetes.io/blog/2025/07/18/pqc-in-k8s/)
+  that it is widely accepted
 
+# References
+
+- https://openquantumsafe.org/
+
+# Docs
+
+Create a documentation site.
+Available tools are:
+
+- [gitbook](https://gitbook.com/docs/) is most modern, best UI. some restriction
+  on free sites. focus on being commercial tools.
+- [docsify](https://docsify.js.org/) is the most minimal. Immediately free. no
+  compilation. Dynamically loads with JS. Not SEO friendly.
+- [Read the Docs](https://docs.readthedocs.com/) mature. Looks a bit
+  dated.
+- [mkdocs](https://www.mkdocs.org/) looks weird. but free. generate site with
+  python.
+- [docusaurus](https://docusaurus.io/docs) has a [comparison
+  page](https://docusaurus.io/docs#comparison-with-other-tools) which is pretty
+  useful.
+
+# Entrust resources
+
+- https://www.entrust.com/resources/learn/post-quantum-cryptography-and-encryption
+- https://www.entrust.com/solutions/post-quantum-cryptography
+  - presentation
+    - with orgnaization-level migration steps
+    - with list of crytographic applications effected
+
+# creating cryptographic key inventory
+
+https://nmap.org/nsedoc/scripts/ssl-enum-ciphers.html
+
+# in k8s
+
+- https://kubernetes.io/blog/2025/07/18/pqc-in-k8s/
+  - [x] read
+
+# packet size limitations
+
+https://tldr.fail/
