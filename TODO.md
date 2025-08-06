@@ -14,6 +14,7 @@
 
 - [ ] Automate with [EJBCA REST API](https://www.ejbca.org/case/automated-certificate-issuing-via-ejbca-rest/)
   - Makes demo more easily reproducible
+  - [Documentation for EJBCA REST API](https://docs.keyfactor.com/ejbca/9.0/ejbca-rest-interface)
 
 # Hybrid Certificates
 
@@ -21,6 +22,7 @@
   can use.
 - [ ] Create a demo of hybrid certificate between PQC and non-PQC
 - [ ] Follow [EJBCA hybrid CA guide](https://docs.keyfactor.com/ejbca/latest/hybrid-ca)
+  - [Detailed steps to create Hybrid CA](https://docs.keyfactor.com/ejbca/latest/creating-a-hybrid-ca)
 
 NOTE: The proposal for [Multiple Public-Key Algorithm X.509 Certificates](https://datatracker.ietf.org/doc/draft-truskovsky-lamps-pq-hybrid-x509/)
 is not being pursued because the same functionality is already covered by [ITU-T X509 (10/2019)](https://www.itu.int/ITU-T/recommendations/rec.aspx?rec=X.509).
@@ -88,3 +90,7 @@ https://nmap.org/nsedoc/scripts/ssl-enum-ciphers.html
 # packet size limitations
 
 https://tldr.fail/
+
+# NIST competition
+
+https://csrc.nist.gov/Projects/pqc-dig-sig

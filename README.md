@@ -20,6 +20,11 @@ This demo is in `pki` subdirectory.
   - ML-DSA-65 = Dilithium 3
   - ML-DSA-87 = Dilithium 5
 
+## Issuing 
+
+- Follow guide on [issuing TLS server cert](https://docs.keyfactor.com/ejbca/latest/tutorial-issue-tls-server-certificates-with-ejbca)
+  but applied to PQC PKI that we have created previously.
+
 ## Using PQC certificates
 
 This demo is in `usage` subdirectory.
