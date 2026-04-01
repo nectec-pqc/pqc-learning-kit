@@ -1,4 +1,4 @@
-# Post-Quantum Cryptography (PQC) demo
+# Post-Quantum Cryptophgraphy (PQC) Learning Toolkit
 
 There are two main demos:
 

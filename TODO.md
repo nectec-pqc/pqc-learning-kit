@@ -66,6 +66,9 @@ Available tools are:
   dated.
 - [mkdocs](https://www.mkdocs.org/) looks weird. but free. generate site with
   python.
+  - [material for mkdocs](https://squidfunk.github.io/mkdocs-material/) adds a
+    lot of advanced features I like such as code comment, terminal animation.
+    - Saw it used for [Typer doc](https://typer.tiangolo.com/)
 - [docusaurus](https://docusaurus.io/docs) has a [comparison
   page](https://docusaurus.io/docs#comparison-with-other-tools) which is pretty
   useful.
