@@ -1,4 +1,4 @@
-# Post-Quantum Cryptography (PQC) demo
+# Post-Quantum Cryptophgraphy (PQC) Learning Toolkit
 
 There are two main demos:
 
@@ -19,6 +19,11 @@ This demo is in `pki` subdirectory.
   - ML-DSA-44 = Dilithium 2
   - ML-DSA-65 = Dilithium 3
   - ML-DSA-87 = Dilithium 5
+
+## Issuing 
+
+- Follow guide on [issuing TLS server cert](https://docs.keyfactor.com/ejbca/latest/tutorial-issue-tls-server-certificates-with-ejbca)
+  but applied to PQC PKI that we have created previously.
 
 ## Using PQC certificates
 
