@@ -1,0 +1,9 @@
+NCSA
+https://www.navy.mi.th/storage/frontend/article/23852/file/th/Quantum%20Readiness.pdf
+ 
+Example of hybrid ( composit )
+https://postquantum.com/post-quantum/hybrid-cryptography-pqc/
+
+What is Crypto Agility 
+https://csrc-nist-gov.translate.goog/pubs/cswp/39/considerations-for-achieving-cryptographic-agility/ipd?_x_tr_sl=en&_x_tr_tl=th&_x_tr_hl=th&_x_tr_pto=tc
+https://www-ibm-com.translate.goog/quantum/blog/crypto-agility?_x_tr_sl=en&_x_tr_tl=th&_x_tr_hl=th&_x_tr_pto=tc&_x_tr_hist=true

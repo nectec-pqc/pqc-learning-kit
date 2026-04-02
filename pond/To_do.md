@@ -6,5 +6,5 @@
   - [ ] show implement guide on C liboqs by digital signing.
 
 - ## Kyber hybrid
-  - [ ] type of hybrid encryption
+  - [ ] type of hybrid encryption <!-- On going -->
   - [ ] how to make our server connect to internet with Kyber encryption ( workshop )
