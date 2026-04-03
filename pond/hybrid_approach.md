@@ -49,7 +49,7 @@ https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/Brochure/quantu
 * ไม่สามารถรับประกันได้ว่าการสื่อสารทุก session จะเป็น quantum-safe เพราะยังมีตัวเลือก classical-only อยู่ 
 * ต้องทำการ migrate ครั้งที่สองในภายหลัง เพื่อเอา classical option ออกจากระบบให้หมด
 ### Example
-Google's post-quantum support ใน Chrome browser ซึ่ง Chrome รองรับทั้ง classical และ post-quantum key exchange พร้อมกัน แล้วค่อยตัดสินใจตอน handshake ว่าจะใช้แบบไหน
+Google's post-quantum support ใน Chrome browser ซึ่ง Chrome รองรับทั้ง classical และ post-quantum key exchange พร้อมกัน แล้วค่อยตัดสินใจตอน handshake ว่าจะใช้แบบไหน ( ยุติการใช้ตั้งแต่วันที่ 13 กันยายน 2567, https://security.googleblog.com/2024/09/a-new-path-for-kyber-on-web.html)
 
 # Table 
 ( ผมไม่แนใจว่าจะแปล Crypto Aglity ให้เข้าใจง่าย ๆ ยังไงดี )
