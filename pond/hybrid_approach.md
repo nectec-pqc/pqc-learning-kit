@@ -51,9 +51,7 @@ https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/Brochure/quantu
 ### Example
 Google's post-quantum support ใน Chrome browser ซึ่ง Chrome รองรับทั้ง classical และ post-quantum key exchange พร้อมกัน แล้วค่อยตัดสินใจตอน handshake ว่าจะใช้แบบไหน ( ยุติการใช้ตั้งแต่วันที่ 13 กันยายน 2567, https://security.googleblog.com/2024/09/a-new-path-for-kyber-on-web.html)
 
-# Table 
-( ผมไม่แนใจว่าจะแปล Crypto Aglity ให้เข้าใจง่าย ๆ ยังไงดี )
-
+# ตารางสรุป
 | วิธีการ Hybrid Encryptio        | แบบเป็นชั้น (Layered)                                    | แบบประกอบ (Composite)                        | แบบทำงานร่วมกัน (Interoperable)                                                       |
 |-------------------------------|-------------------------------------------------------|----------------------------------------------|------------------------------------------------------------------------------|
 | ข้อดี                           | ไม่ต้องแก้ระบบเดิม                                        | มีความปลอดภัยสูงสุดหากติดตั้งใช้งานอย่างถูกต้อง         | ค่อย ๆ นำไปใช้กับทีล่ะกลุ่มได้                                                       |
