@@ -49,6 +49,11 @@ is not being pursued because the same functionality is already covered by [ITU-T
 - also mentioned in [k8s blog](https://kubernetes.io/blog/2025/07/18/pqc-in-k8s/)
   that it is widely accepted
 
+## There is another hybrid KEM now (SecP256r1MLKEM768)
+
+[reference](https://author-tools.ietf.org/iddiff?url1=draft-kwiatkowski-tls-ecdhe-mlkem-01&url2=draft-kwiatkowski-tls-ecdhe-mlkem-00&difftype=--html)
+updated 2025-02-27
+
 # References
 
 - https://openquantumsafe.org/
