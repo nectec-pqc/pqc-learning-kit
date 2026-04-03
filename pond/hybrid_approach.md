@@ -5,6 +5,12 @@
 คือแนวทางเราจะนำการเข้ารหัสลับแบบ PQC (post-quantum encryption) 
 มาใช้โครงสร้างของเราที่มีการสร้างมาแล้ว
 
+โดยเมื่อสร้าง key สำหรับการเข้ารหัสลับซึ่งเราจะสร้าง Key ทั้งสองแบบ
+1. key สำหรับการเข้ารหัสแบบก่า ( RSA, Elliptic Curve ฯลฯ)
+2. key สำหรับการเข้ารหัสแบบควอนตัม ( lattice-based cryptography, Code-based ฯลฯ)
+
+แล้วเราจะนำ Key ทั้งสองมาใส่ใน Function 
+
 ## แบบเป็นชั้น ๆ ( Layered )
 ### คืออะไร ( What ) 
 เป็นวิธีที่เราใช้การเข้ารหัสแบบ PQC มาเข้ารหัสข้อมูลก่อนและเอาการเข้ารหัสแบบเก่ามาเข้ารหัสอีกทีเพื่อที่โครงสร้างแอปพลิเคชันเดิมยังคมรับข้อมูลนั้นได้
@@ -13,14 +19,27 @@
 
 ### ข้อดี
 * ติดตั้งง่าย
+* โครงสร้างแอปพลิเคชันเดิมยังทำงานได้
 ### ข้อเสีย
-* มีภาระในการคำนวณมากขึ้น ( Overhead )
+* แอปพลิเคชันมีภาระในการคำนวณมากขึ้น
 ### Example
 บริษัท Apple : Apple’s quantum-safe messaging PQ3 
 https://security.apple.com/assets/files/A_Formal_Analysis_of_the_iMessage_PQ3_Messaging_Protocol_Basin_et_al.pdf
 
 ## แบบประกอบ (Composite) 
+### คืออะไร ( What )
+เน้นว่าเป็นการเอา Key สองแบบมา "ประกอบ" (Compose) กันผ่าน Function จำพวก KDF จนได้ Key ใหม่เพียงอันเดียว
+ทำให้ผู้โจมตีต้องแก้รหัสสองครั้งถึงจะได้ Key ที่ใช้ในการเข้ารหัสลับ
 
+![alt text](compositKey.png)
+
+### ข้อดี
+* ปลอดภัยมาก
+### ข้อเสีย
+* มีความซับซ้อนในการติดตั้งและออกแบบ
+### Example
+ตัวอย่างจาก สำนักงานความมั่นคงปลอดภัยด้านสารสนเทของประเทศเยอรมนี
+https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/Brochure/quantum-safe-cryptography.pdf
 
 ## แบบผสม (Interoperable)   
 
