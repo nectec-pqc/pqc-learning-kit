@@ -1,0 +1,11 @@
+# Python temporary files
+__pycache__
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Persistent working directory for tlssec container
+/workdir/*
+!/workdir/README.md

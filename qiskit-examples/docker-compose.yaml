@@ -6,6 +6,8 @@ services:
     build:
       context: .
     volumes:
+    # Persist working directory
+    - ./workdir:/home/app
     # Mount source code for live editing
     - ./src:/opt/app/src
     entrypoint:
