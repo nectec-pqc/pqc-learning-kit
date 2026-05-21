@@ -1,0 +1,12 @@
+name: qiskit-examples
+services:
+  cli:
+    image: giskit-examples
+    pull_policy: never
+    build:
+      context: .
+    volumes:
+    # Mount source code for live editing
+    - ./src:/opt/app/src
+    entrypoint:
+    - bash
